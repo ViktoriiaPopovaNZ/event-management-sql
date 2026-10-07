@@ -24,7 +24,7 @@ SQLite · DB Browser for SQLite · SQL · Relational modelling · Data integrity
 
 ## Database structure
 
-The database contains 20 application tables covering:
+The database contains 19 application tables covering:
 
 - Clients, events and venues
 - Attendees and tickets
