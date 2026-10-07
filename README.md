@@ -56,3 +56,17 @@ The financial calculation includes selected costs only. It does not represent co
 Foreign-key enforcement must be enabled for each SQLite connection using:
 
 PRAGMA foreign_keys = ON;
+
+## How to run
+
+1. Download SEMG.db and queries.sql.
+2. Open SEMG.db in DB Browser for SQLite.
+3. Go to the Execute SQL tab.
+4. Open queries.sql and execute each reporting query separately.
+
+The first statement enables foreign-key enforcement for the current connection.
+
+## Verified results
+
+- Outstanding invoices: invoices 1014 and 1015 each have an unpaid balance of $1,000.
+- Lowest financial result: Natural Beauty Product Launch, at -$4,150, based on invoiced revenue less quoted service costs and booked speaker fees.
